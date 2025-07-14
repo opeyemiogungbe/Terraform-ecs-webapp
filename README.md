@@ -398,42 +398,36 @@ docker build -t ecs-webapp .
 docker run -p 3000:3000 ecs-webapp
 ```
 
+![checking local testing](https://i.postimg.cc/j5Z1Nmb9/Screenshot-2025-07-14-074528.png)
+
 ### 3. Initialize Terraform
 
 ```
 terraform init
 terraform plan
 ```
+![initiating terraform](https://i.postimg.cc/rFW7Kd7v/Screenshot-2025-07-12-220146.png)
 
+![terraform planing our infrastructure](https://i.postimg.cc/J0T3hQMb/Screenshot-2025-07-12-220235.png)
 
 ### 5. Deploy to AWS
 
 ```
 terraform apply
 ```
-
-
-
-
----
-
-## ✅ Output
-
-
-
+![terraform applying our configuration](https://i.postimg.cc/C19Br6hr/Screenshot-2025-07-12-222022.png)
 
 
 ## 🪩 Teardown
 
 To destroy all AWS resources:
 
-```bash
+```
 terraform destroy
 ```
 
----
 
-## 📖 What You Learned
+## 📖 What we Learned so far...
 
 * Infrastructure as Code (Terraform)
 * Docker image packaging
